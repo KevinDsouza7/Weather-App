@@ -62,8 +62,9 @@ function displayCurrentWeather(data) {
 
 // Function to display 5-day forecast
 function displayForecast(data) {
+  console.log(data);
   const forecastData = data.list.slice(0, 5); // Take the first 5 entries for a 5-day forecast
-
+  
   const forecastHTML = forecastData.map(entry => {
     const date = dayjs(entry.dt_txt).format('MMMM D, YYYY');
     const icon = entry.weather[0].icon;
