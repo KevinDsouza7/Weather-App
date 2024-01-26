@@ -34,6 +34,8 @@ The Weather Dashboard is a web application that allows users to search for curre
 
 ## Website link
 
+https://kevindsouza7.github.io/Weather-App/
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the Weather Dashboard project, please fork the repository, make your changes, and submit a pull request.
