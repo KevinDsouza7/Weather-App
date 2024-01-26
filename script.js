@@ -62,7 +62,8 @@ function displayCurrentWeather(data) {
 
 // Function to display 5-day forecast
 function displayForecast(data) {
-  console.log(data);
+  console.log(data); // Log the entire forecast data
+
   const forecastData = data.list.slice(0, 5); // Take the first 5 entries for a 5-day forecast
   
   const forecastHTML = forecastData.map(entry => {
@@ -83,6 +84,7 @@ function displayForecast(data) {
 
   forecastSection.innerHTML = forecastHTML;
 }
+
 
 // Function to add a city to the search history
 function addToHistory(cityName) {
